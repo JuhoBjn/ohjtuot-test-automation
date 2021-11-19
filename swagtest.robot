@@ -4,7 +4,8 @@ Suite Setup	Test Suite Setup
 Suite Teardown	CloseAllBrowsers
 
 *** Test cases ***
-Verify Correct Site
+Make sure we're on the right page
+	Verify Correct Site
 
 Perform Login
 	Enter Username	standard_user
