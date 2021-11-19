@@ -15,3 +15,7 @@ Perform Login
 Add Product to Cart
 	Choose Product	Sauce Labs Bolt T-Shirt
 	Add to Cart
+
+Check Cart
+	Open Cart
+	Verify Item in Cart	Sauce Labs Bolt T-Shirt
