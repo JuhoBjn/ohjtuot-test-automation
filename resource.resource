@@ -43,3 +43,18 @@ Open Cart
 Verify Item in Cart
 	[Arguments]	${ITEM NAME}
 	VerifyText	${ITEM NAME}
+
+Enter First Name
+	[Arguments]	${FIRST NAME}
+	TypeText	First Name	${FIRST NAME}
+
+Enter Last Name
+	[Arguments]	${LAST NAME}
+	TypeText	Last Name	${LAST NAME}
+
+Enter Postal Code
+	[Arguments]	${POSTAL}
+	TypeText	Zip/Postal Code	${POSTAL}
+
+Verify Checkout Complete
+	VerifyText	THANK YOU FOR YOUR ORDER
