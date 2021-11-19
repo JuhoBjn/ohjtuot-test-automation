@@ -20,11 +20,16 @@ Check Cart
 	Open Cart
 	Verify Item in Cart	Sauce Labs Bolt T-Shirt
 
-Checkout Product
+Enter Information at Checkout
 	Click Button		CHECKOUT
 	Enter First Name	Bob
 	Enter Last Name		Botter
 	Enter Postal Code	53125
-	Click Button		CONTINUE
+	Click Button 		CONTINUE
+
+Check Total
+	Verify Total
+
+Finish Checkout
 	Click Button		FINISH
 	Verify Checkout Complete
