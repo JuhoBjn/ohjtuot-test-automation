@@ -6,6 +6,7 @@ ${WEBSITE}	https://www.saucedemo.com/
 ${BROWSER}	firefox
 ${DRIVER}	/home/juho/GitRepos/robot-testing/swag-env/driver/geckodriver
 ${DELAY}	0.5s
+${ADD TO CART}	//*[@id="add-to-cart-sauce-labs-bolt-t-shirt"]
 
 *** Keywords ***
 Test Suite Setup
@@ -28,3 +29,9 @@ Click Button
 	[Arguments]	${BUTTON_NAME}
 	ClickText	${BUTTON_NAME}
 
+Choose Product
+	[Arguments]	${PRODUCT}
+	ClickText	${PRODUCT}
+
+Add to Cart
+	ClickElement	${ADD TO CART}

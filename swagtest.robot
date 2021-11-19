@@ -11,3 +11,7 @@ Perform Login
 	Enter Username	standard_user
 	Enter Password	secret_sauce
 	Click Button	LOGIN
+
+Add Product to Cart
+	Choose Product	Sauce Labs Bolt T-Shirt
+	Add to Cart
