@@ -2,3 +2,7 @@
 *.html
 *.log
 *.xml
+
+# Directories to ignore
+output
+swag-env
