@@ -15,6 +15,7 @@ ${TOTAL PATH}		//*[@class="summary_total_label"]
 *** Keywords ***
 Test Suite Setup
 	OpenBrowser	${WEBSITE}	${BROWSER}	executable_path=${DRIVER}
+	MaximizeWindow
 	SetConfig	SearchMode	draw
 	SetConfig	Delay		${DELAY}
 
