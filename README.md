@@ -1,3 +1,3 @@
 # Ohjtuot Test Automation
 
-Using Robot Framework to create an automated test for saucedemo.
+Using Robot Framework and QWeb to test saucedemo online store.
