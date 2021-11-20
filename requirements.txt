@@ -1,0 +1,4 @@
+QWeb==1.2.2
+webdrivermanager==0.10.0
+robotframework==4.1.2
+robotframework-debuglibrary==2.2.1
