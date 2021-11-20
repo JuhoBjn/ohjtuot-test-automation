@@ -4,7 +4,7 @@ Library		QWeb
 *** Variables ***
 ${WEBSITE}		https://www.saucedemo.com/
 ${BROWSER}		firefox
-${DRIVER}		/home/juho/GitRepos/robot-testing/swag-env/driver/geckodriver
+${DRIVER}		swag-env/WebDriverManager/gecko/v0.29.0/geckodriver-v0.29.0-linux64/geckodriver
 ${DELAY}		0.2s
 ${ADD TO CART}		//*[@id="add-to-cart-sauce-labs-bolt-t-shirt"]
 ${CART PATH}		/html/body/div/div/div/div[1]/div[1]/div[3]/a
@@ -14,7 +14,7 @@ ${TOTAL PATH}		//*[@class="summary_total_label"]
 
 *** Keywords ***
 Test Suite Setup
-	OpenBrowser	${WEBSITE}	${BROWSER}	executable_path=${DRIVER}
+	OpenBrowser	${WEBSITE}	${BROWSER}	
 	MaximizeWindow
 	SetConfig	SearchMode	draw
 	SetConfig	Delay		${DELAY}
